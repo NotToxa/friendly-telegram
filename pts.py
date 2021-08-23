@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 @loader.tds
 class PTSMod(loader.Module):
-    """Photo to Sticker | Фото в стикер. Модуль позволяет превращать фото в стикер.\n.pts <replay>"""
+    """Photo to Sticker | Фото в стикер. Модуль позволяет превращать фото в стикер.\n.pts <replay/photo>"""
     strings = {"name":"PTS"}
     
     async def get_img_from_msg(self, reply, message):
